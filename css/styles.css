@@ -102,11 +102,31 @@ background: #f2f2f2;
   grid-template-rows: 200px 200px;
   grid-template-columns: 1fr 1fr;
   margin:0 auto;
+  width:80%;
 }
 
 .service-img{
   display:block;
-  width:100px;
+  width:200px;
+  margin:auto;
+
+}
+
+.service-ttl{
+  text-align: center;
+  color: #ffffff;
+  margin:20px;
+}
+
+.service-p{
+  text-align: center;
+  width:80%;
+  margin:0 auto;
+  color:#ffffff;
+}
+
+.service-box2, .service-box3{
+  display: flex;
 }
 
 .service-box1{
@@ -155,8 +175,8 @@ background: #f2f2f2;
   width:200px;
 }
 
-.deta, .blog-tag{
-  display:inline-block;
+.blog-footer{
+  display: flex;
 }
 
 .blog-a{
@@ -167,7 +187,7 @@ background: #f2f2f2;
   border:1px solid #ff0099;
   border-radius: 30px;
   padding:10px 15px;
-  margin:0 auto;
+  text-align: center;
 }
 
 table{
