@@ -44,6 +44,12 @@ h1{
 .commit-h2{
   font-size: 20px;
   color: #ff0099;
+  margin:0;
+}
+
+h2{
+  width:80%;
+  margin:0 auto;
 }
 
 .blue-change{
@@ -52,6 +58,8 @@ h1{
 
 h3{
   color:#ff0099;
+  margin:0 auto;
+  width:80%;
 }
 
 .commit-p{
@@ -80,10 +88,14 @@ h1,h3{
 }
 
 .about-box{
-background: #f2f2f2;
+  background: #f2f2f2;
 }
 
-.about-box > h2,h3{
+.about-box > h2{
+  text-align: center;
+}
+
+.about-h3{
   text-align: center;
 }
 
@@ -91,17 +103,27 @@ background: #f2f2f2;
   display: flex;
 }
 
-.about-box-content > img,p{
+.about-img{
   width:30%;
   margin:10px 100px;
   align-items: center;
+}
+
+.about-p{
+  width:30%;
+  margin:10px 100px;
+  align-items: center;
+}
+
+.service-wrapper{
+  margin:100px 0;
 }
 
 .service{
   display:grid;
   grid-template-rows: 200px 200px;
   grid-template-columns: 1fr 1fr;
-  margin:0 auto;
+  margin: 0 auto;
   width:80%;
 }
 
@@ -149,10 +171,11 @@ background: #f2f2f2;
 
 .blog{
   background: #f2f2f2;
+  margin:100px 0;
 }
 
 .blog-img img{
-  width: 200px;
+  width: 100%;
   height:auto;
   border-radius: 10px 10px 0 0;
 }
@@ -165,29 +188,40 @@ background: #f2f2f2;
 }
 
 .blog-box{
-  width:200px;
+  width:30%;
   border:1px solid #ffff;
   border-radius: 10px;
   background:#ffff;
 }
 
 .text-box{
-  width:200px;
+  width:90%;
+  margin:0 auto;
 }
 
 .blog-footer{
   display: flex;
+  justify-content: space-between;
+  color:#999;
+  font-size: 14px;
+}
+
+.blog-btn{
+  text-align: center;
+  margin:20px auto;
 }
 
 .blog-a{
-  display:inline-block;
   text-decoration: none;
   color:#ff0099;
   background: #ffffff;
   border:1px solid #ff0099;
   border-radius: 30px;
   padding:10px 15px;
-  text-align: center;
+}
+
+.company-wrapper{
+  margin: 100px 0;;
 }
 
 table{
@@ -208,7 +242,7 @@ table th{
 
 .recruit-interview{
   display:flex;
-  margin:20px auto;
+  margin:100px auto;
 }
 
 .recruit{
@@ -258,4 +292,12 @@ table th{
 
 footer{
   text-align: center;
+}
+
+.footer-p{
+  margin:100px auto 50px;
+}
+
+.copy-right{
+  margin:100px auto 0;
 }
