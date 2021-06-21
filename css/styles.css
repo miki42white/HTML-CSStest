@@ -1,6 +1,6 @@
 body{
   margin:0;
-  width:1300px;
+  width:100%;
 }
 
 .wrapper{
@@ -247,26 +247,23 @@ table th{
 
 .recruit-interview{
   display:flex;
-  width:100px auto;
-  margin:0 auto;
-}
-
-.recruit{
-  background-image: url(../img/recruit.png);
-  width:50%;
 }
 
 .recruit-ttl{
+  background-image: url(../img/recruit.png);
+  background-size: cover;
+  background-position: center;
+  height:300px;
   color:#ffffff;
-}
-
-.interview{
-  background-image: url(../img/interview.png);
-  width:50%;
+  text-align: center;
 }
 
 .interview-ttl{
+  background-image: url(../img/interview.png);
+  background-size: cover;
+  background-position: center;
   color:#ffffff;
+  text-align: center;
 }
 
 
