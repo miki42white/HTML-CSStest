@@ -3,6 +3,11 @@ body{
   width:1300px;
 }
 
+.wrapper{
+  width:100%;
+  overflow: hidden;
+}
+
 .header-logo img{
   width:100px;
   margin-bottom: 0;
@@ -242,30 +247,28 @@ table th{
 
 .recruit-interview{
   display:flex;
-  margin:100px auto;
+  width:100px auto;
+  margin:0 auto;
 }
 
 .recruit{
-  position: relative;
+  background-image: url(../img/recruit.png);
+  width:50%;
 }
 
 .recruit-ttl{
-  position: absolute;
-  top:30%;
-  left:40%;
   color:#ffffff;
 }
 
 .interview{
-  position: relative;
+  background-image: url(../img/interview.png);
+  width:50%;
 }
 
 .interview-ttl{
-  position: absolute;
-  top:30%;
-  left:40%;
   color:#ffffff;
 }
+
 
 .info-btn{
   display: inline-block;
